@@ -1,6 +1,7 @@
 package com.company;
 
 import com.company.lesson11.OperatorSwitch;
+import com.company.lesson14.MyArrays;
 import com.company.lesson20.MusicEnum;
 import com.company.lesson21_22.Bird;
 import com.company.lesson21_22.Crow;
@@ -20,8 +21,8 @@ import java.nio.charset.StandardCharsets;
 public class Main {
 
     public static void main(String[] args) {
-        OperatorSwitch operatorSwitch = new OperatorSwitch();
-        operatorSwitch.foo();
+        MyArrays myArrays = new MyArrays();
+        myArrays.foo();
     }
 }
 
